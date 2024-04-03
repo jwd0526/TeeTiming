@@ -1,0 +1,55 @@
+body {
+  margin: 20px;
+}
+
+.times-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-range {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.day-selector {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.day-options {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+#disable-day-selector {
+  margin-right: 10px;
+}
+
+#day-selector {
+  margin-left: 10px;
+}
+
+.buttons-box {
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.teetimes-box {
+  position: absolute;
+  top: 0;
+  left: 20vw;
+  width: 80vw;
+  height: 100vh;
+}
